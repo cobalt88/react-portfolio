@@ -103,6 +103,7 @@ FEATURED SECTION
   background-color: var(--dark-grey);
   justify-content: space-evenly;
   width: 100%;
+  margin-bottom: 10rem;
 }
 .section-header {
   display: flex;
@@ -119,8 +120,10 @@ FEATURED SECTION
   flex-wrap: wrap;
   flex-direction: row;
   height: 90vh;
+  width: 30%;
   margin: 1rem;
-  padding: 1rem;
+  margin-bottom: 5rem;
+  padding: 4rem;
   background-color: var(--card-background);
   border-radius: 0.5rem;
 }
@@ -148,8 +151,26 @@ FEATURED SECTION
   width: 100%;
   justify-content: flex-start;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   .featured-section {
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+  .featured-card {
+    width: 75%;
+    height: 70vh;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    padding: 4rem;
+  }
+}
+@media (max-width: 700px) {
+  .featured-card {
+    width: 75%;
+    margin: 1rem;
+    padding: 1rem;
+    height: 80vh;
   }
 }
