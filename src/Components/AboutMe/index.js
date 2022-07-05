@@ -1,6 +1,13 @@
 import React from "react";
+import { Card, CardGroup } from "react-bootstrap";
 
-export const AboutMe = (props) => {
-  return;
-  <h1>About Me Section</h1>;
-};
+function AboutMe(props) {
+  return (
+    <CardGroup>
+      <Card style={{ width: "18rem" }}></Card>
+
+      <Card style={{ width: "18rem" }}></Card>
+    </CardGroup>
+  );
+}
+export default AboutMe;

@@ -1,11 +1,13 @@
 import "./App.css";
-import BackgroundAnimation from "./components/BackgroundAnimation";
-import AboutMe from "./components/AboutMe";
+import BackgroundAnimation from "./Components/BackgroundAnimation/index";
+import AboutMe from "./Components/AboutMe/index";
+import Hero from "./Components/Hero/index";
 
 function App() {
   return (
     <div className="page-wrapper">
       <BackgroundAnimation />
+      <Hero />
       <AboutMe />
     </div>
   );
