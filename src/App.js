@@ -4,6 +4,8 @@ import AboutMe from "./Components/AboutMe/index";
 import Hero from "./Components/Hero/index";
 import FeaturedCards from "./Components/FeaturedCards";
 import ProjectCards from "./Components/ProjectCards";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <AboutMe className="full-height" />
       <FeaturedCards className="featured-section" />
       <ProjectCards className="project-section" />
+      <Contact className="contact-section" />
+      <Footer className="footer" />
     </>
   );
 }

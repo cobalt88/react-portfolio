@@ -16,6 +16,19 @@
 }
 
 /* 
+---------------
+GLOBAL CLASSES 
+---------------
+*/
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
+/* 
 -------------
 HERO SECTION 
 -------------
@@ -185,7 +198,7 @@ PROJECTS SECTION
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 5rem;
+  margin-bottom: 5rem;
   width: 100%;
   background-color: var(--dark-grey);
 }
@@ -197,8 +210,9 @@ PROJECTS SECTION
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 50vh;
-  max-width: 15%;
+  max-height: 500px;
+  min-height: 50vh;
+  max-width: 250px;
   margin: 2rem;
   margin-bottom: 4rem;
   padding: 2rem;
@@ -219,4 +233,64 @@ PROJECTS SECTION
 .container-misc-projects {
   display: flex;
   flex-direction: row;
+}
+
+/* 
+----------------
+CONTACT SECTION
+----------------
+*/
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--dark-grey);
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 175px;
+  height: 50vh;
+  background-color: var(--card-background);
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+/* 
+----------------
+FOOTER SECTION
+----------------
+*/
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.footer-card a {
+  display: flex;
 }
