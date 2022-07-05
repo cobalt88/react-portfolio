@@ -3,26 +3,31 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 
 function FeaturedCards() {
   return (
-    <CardGroup className="featured-section">
-      <h2>Featured Projects</h2>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img alt="project logo"></Card.Img>
-        <h3>Featured Project 1</h3>
-        <p>body of project</p>
+    <Container className="featured-section">
+      <Card className="section-header">
+        <h2>Featured Projects</h2>
+      </Card>
+      <Card style={{ width: "18rem" }} className="featured-card">
+        <Card.Img alt="project logo" className="card-image"></Card.Img>
+        <h3 className="card-header">Featured Project 1</h3>
+        <p className="card-body">body of project</p>
+        <p className="card-footer">Card footer goes here</p>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
-        <Card.Img alt="project logo"></Card.Img>
-        <h3>Featured Project 1</h3>
-        <p>body of project</p>
+      <Card style={{ width: "18rem" }} className="featured-card">
+        <Card.Img alt="project logo" className="card-image"></Card.Img>
+        <h3 className="card-header">Featured Project 1</h3>
+        <p className="card-body">body of project</p>
+        <p className="card-footer">Card footer goes here</p>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
-        <Card.Img alt="project logo"></Card.Img>
-        <h3>Featured Project 1</h3>
-        <p>body of project</p>
+      <Card style={{ width: "18rem" }} className="featured-card">
+        <Card.Img alt="project logo" className="card-image"></Card.Img>
+        <h3 className="card-header">Featured Project 1</h3>
+        <p className="card-body">body of project</p>
+        <p className="card-footer">Card footer goes here</p>
       </Card>
-    </CardGroup>
+    </Container>
   );
 }
 

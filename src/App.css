@@ -1,6 +1,7 @@
 :root {
   color: aliceblue;
-  --dark-grey: #191a1cf4;
+  --dark-grey: #19191ccc;
+  --card-background: #29292c;
 }
 
 /* main background animation */
@@ -45,6 +46,7 @@ ABOUT SECTION
 .about-cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   background-color: var(--dark-grey);
   padding-top: 5vh;
   padding-bottom: 5vh;
@@ -55,17 +57,19 @@ ABOUT SECTION
 
 .about-image-card {
   display: flex;
-  width: 40%;
+  min-width: 40%;
   background-image: url(./assets/images/Logo\ SVG.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 4rem;
 }
 .about-info-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  min-width: 40%;
+  margin: 4rem;
 }
 
 @media (max-width: 1000px) {
@@ -95,8 +99,55 @@ FEATURED SECTION
 .featured-section {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--dark-grey);
+  justify-content: space-evenly;
+  width: 100%;
 }
-
+.section-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+}
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 90vh;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--card-background);
+  border-radius: 0.5rem;
+}
+.card-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.card-image {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.card-body {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+}
 @media (max-width: 1000px) {
   .featured-section {
     flex-direction: column;
