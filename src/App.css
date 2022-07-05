@@ -1,7 +1,9 @@
 :root {
   color: aliceblue;
+  --dark-grey: #191a1cf4;
 }
 
+/* main background animation */
 .page-wrapper {
   width: 100%;
   position: fixed;
@@ -11,6 +13,12 @@
   perspective: 200px;
   z-index: -1;
 }
+
+/* 
+-------------
+HERO SECTION 
+-------------
+ */
 .hero-card {
   display: flex;
   justify-content: center;
@@ -26,4 +34,50 @@
 }
 .full-height {
   height: 100vh;
+}
+
+/* 
+---------------
+ABOUT SECTION
+---------------
+*/
+
+.about-cards {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--dark-grey);
+}
+/* add media query to change this from row to column for mobile devices */
+
+.about-image-card {
+  display: flex;
+  width: 50%;
+  background-image: url(./assets/images/Logo\ SVG.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about-info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+@media (max-width: 1000px) {
+  .about-cards {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .about-info-card {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .about-image-card {
+    min-height: 50vh;
+    width: 80%;
+  }
 }
