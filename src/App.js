@@ -1,12 +1,12 @@
 import "./App.css";
-import { HelloWorld } from "./HelloWorld";
-import { MyComponent } from "./MyComponent";
+import BackgroundAnimation from "./components/BackgroundAnimation";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     <div className="page-wrapper">
-      <MyComponent />
-      <HelloWorld />
+      <BackgroundAnimation />
+      <AboutMe />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
 
-function AboutMe() {
-  return <div></div>;
-}
-
-export default AboutMe;
+export const AboutMe = (props) => {
+  return;
+  <h1>About Me Section</h1>;
+};
