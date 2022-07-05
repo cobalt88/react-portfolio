@@ -46,12 +46,16 @@ ABOUT SECTION
   display: flex;
   flex-direction: row;
   background-color: var(--dark-grey);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-bottom: 25vh;
+  margin-top: 25vh;
 }
 /* add media query to change this from row to column for mobile devices */
 
 .about-image-card {
   display: flex;
-  width: 50%;
+  width: 40%;
   background-image: url(./assets/images/Logo\ SVG.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -61,7 +65,7 @@ ABOUT SECTION
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;
+  width: 40%;
 }
 
 @media (max-width: 1000px) {

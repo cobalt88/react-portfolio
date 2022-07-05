@@ -10,8 +10,18 @@ function FeaturedCards() {
         <h3>Featured Project 1</h3>
         <p>body of project</p>
       </Card>
-      <Card style={{ width: "18rem" }}></Card>
-      <Card style={{ width: "18rem" }}></Card>
+
+      <Card style={{ width: "18rem" }}>
+        <Card.Img alt="project logo"></Card.Img>
+        <h3>Featured Project 1</h3>
+        <p>body of project</p>
+      </Card>
+
+      <Card style={{ width: "18rem" }}>
+        <Card.Img alt="project logo"></Card.Img>
+        <h3>Featured Project 1</h3>
+        <p>body of project</p>
+      </Card>
     </CardGroup>
   );
 }
