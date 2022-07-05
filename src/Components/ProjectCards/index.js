@@ -3,8 +3,8 @@ import { Card, CardGroup, Container } from "react-bootstrap";
 
 export const ProjectCards = (props) => {
   return (
-    <CardGroup>
-      <Card style={{ width: "18rem" }}>
+    <Container className="projects-container">
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 1</Card.Title>
@@ -16,7 +16,7 @@ export const ProjectCards = (props) => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 2</Card.Title>
@@ -28,7 +28,7 @@ export const ProjectCards = (props) => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 3</Card.Title>
@@ -40,7 +40,7 @@ export const ProjectCards = (props) => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 4</Card.Title>
@@ -52,7 +52,7 @@ export const ProjectCards = (props) => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 4</Card.Title>
@@ -64,7 +64,7 @@ export const ProjectCards = (props) => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 5</Card.Title>
@@ -76,7 +76,7 @@ export const ProjectCards = (props) => {
         </Card.Body>
       </Card>
 
-      <Card style={{ width: "18rem" }}>
+      <Card className="project-card">
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
           <Card.Title>Project 6</Card.Title>
@@ -87,6 +87,6 @@ export const ProjectCards = (props) => {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
-    </CardGroup>
+    </Container>
   );
 };

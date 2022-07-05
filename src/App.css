@@ -174,3 +174,48 @@ FEATURED SECTION
     height: 80vh;
   }
 }
+
+/* 
+----------------
+PROJECTS SECTION
+----------------
+*/
+
+.projects-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--dark-grey);
+  margin: 5rem;
+}
+
+.projects-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 50vh;
+  width: 25%;
+  margin: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background-color: var(--card-background);
+  border-radius: 0.5rem;
+}
+
+.container-react-projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-backend-projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-misc-projects {
+  display: flex;
+  flex-direction: row;
+}
