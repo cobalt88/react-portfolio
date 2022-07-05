@@ -81,3 +81,20 @@ ABOUT SECTION
     width: 80%;
   }
 }
+
+/* 
+----------------
+FEATURED SECTION
+----------------
+*/
+
+.featured-section {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 1000px) {
+  .featured-section {
+    flex-direction: column;
+  }
+}

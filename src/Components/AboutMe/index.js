@@ -18,10 +18,9 @@ function AboutMe(props) {
           When I see something new, or at least new to me, my first thoughts are
           generally something along the lines of <br />
           "How does that work? What is its function? Can I take it apart? Can I
-          make it better? What if..." <br />
-          I have always had the mentality of wanting to understand a thing down
-          to the most fundamental levels that I am capable of comprehending.{" "}
-          <br />
+          make it better? What if..." <br />I have always had the mentality of
+          wanting to understand a thing down to the most fundamental levels that
+          I am capable of comprehending. <br />
           Whether it be something mechanical, electrical, digital, or even
           theoretical, I just want to take it apart, <br />
           learn from it, and incorporate its useful elements or lessons learned
@@ -37,8 +36,6 @@ function AboutMe(props) {
           Engineering.
           <br /> <br />
           Vincent Teune
-          <br />
-          March 2022
           <br />
         </p>
       </Card>
