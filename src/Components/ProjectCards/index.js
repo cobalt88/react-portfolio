@@ -1,92 +1,76 @@
 import React from "react";
-import { Card, CardGroup, Container } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
-export const ProjectCards = (props) => {
+function ProjectCards() {
   return (
-    <Container className="projects-container">
+    <section className="project-section">
+      <Card className="section-header">
+        <h2>Projects</h2>
+      </Card>
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 1</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
 
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 2</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
 
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 3</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
 
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 4</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
 
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 4</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
 
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 5</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
 
       <Card className="project-card">
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Project 6</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
+        <div className="card-header">Test Project Card Header</div>
+        <div className="card-body">
+          Test body section for the standard project card. A brief description
+          of the project will go here.
+        </div>
+        <div className="card-footer">Card Footer - Icons Go Here</div>
       </Card>
-    </Container>
+    </section>
   );
-};
+}
+
+export default ProjectCards;

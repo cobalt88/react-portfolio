@@ -120,10 +120,10 @@ FEATURED SECTION
   flex-wrap: wrap;
   flex-direction: row;
   height: 90vh;
-  width: 30%;
+  width: 25%;
   margin: 1rem;
   margin-bottom: 5rem;
-  padding: 4rem;
+  padding: 2rem;
   background-color: var(--card-background);
   border-radius: 0.5rem;
 }
@@ -181,15 +181,16 @@ PROJECTS SECTION
 ----------------
 */
 
-.projects-section {
+.project-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--dark-grey);
   margin: 5rem;
+  width: 100%;
+  background-color: var(--dark-grey);
 }
 
-.projects-card {
+.project-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -197,7 +198,7 @@ PROJECTS SECTION
   flex-wrap: wrap;
   flex-direction: row;
   height: 50vh;
-  width: 25%;
+  max-width: 15%;
   margin: 2rem;
   margin-bottom: 4rem;
   padding: 2rem;

@@ -14,7 +14,7 @@ function App() {
       <Hero className="hero-card" />
       <AboutMe className="full-height" />
       <FeaturedCards className="featured-section" />
-      <ProjectCards className="projects-section" />
+      <ProjectCards className="project-section" />
     </>
   );
 }
