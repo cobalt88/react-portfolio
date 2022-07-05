@@ -1,3 +1,7 @@
+:root {
+  color: aliceblue;
+}
+
 .page-wrapper {
   width: 100%;
   position: fixed;
@@ -5,5 +9,21 @@
   background-repeat: no-repeat;
   background-position: top center;
   perspective: 200px;
-  z-index: -1; 
+  z-index: -1;
+}
+.hero-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.hero-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.full-height {
+  height: 100vh;
 }

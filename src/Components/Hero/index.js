@@ -1,23 +1,21 @@
 import { React } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Card } from "react-bootstrap";
 
 function Hero(props) {
   return (
     <Container>
-      <div className="hero">
-        <div className="hero-content">
-          <h1>
-            <span className="hero-content-title">
-              <span
-                className="hero-content-title-first"
-                style={{ color: "white" }}
-              >
-                Hello
-              </span>
-              <span className="hero-content-title-second">World</span>
-            </span>
-          </h1>
-          <p className="hero-content-subtitle">This is a simple React app.</p>
+      <div className="hero" style={{ minHeight: "100vh" }}>
+        <div className="hero-content" style={{ textAlign: "center" }}>
+          <Card style={{ display: "flex" }}>
+            <Card.Title>
+              <h1>
+                Vincent
+                <br />
+                Teune
+              </h1>
+              <p>Engineer</p>
+            </Card.Title>
+          </Card>
         </div>
       </div>
     </Container>

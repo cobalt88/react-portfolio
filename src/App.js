@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="page-wrapper">
       <BackgroundAnimation />
-      <Hero />
-      <AboutMe />
+      <Hero className="hero-card" />
+      <AboutMe className="full-height" />
     </div>
   );
 }
