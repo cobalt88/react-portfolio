@@ -9,19 +9,19 @@ function Contact() {
       </Card>
 
       <Card className="contact-card">
-        <h3 className="card-header">Address</h3>
+        <h3 className="card-header">GitHub</h3>
         <p className="card-body">Put Stuff Here</p>
         <p className="card-footer">Maybe put something here?</p>
       </Card>
 
       <Card className="contact-card">
-        <h3 className="card-header">Phone</h3>
+        <h3 className="card-header">Reach Out</h3>
         <p className="card-body">Put Stuff Here</p>
         <p className="card-footer">Maybe put something here?</p>
       </Card>
 
       <Card className="contact-card">
-        <h3 className="card-header">Email</h3>
+        <h3 className="card-header">Request Form</h3>
         <p className="card-body">Put Stuff Here</p>
         <p className="card-footer">Maybe put something here?</p>
       </Card>

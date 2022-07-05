@@ -201,11 +201,13 @@ PROJECTS SECTION
   margin-bottom: 5rem;
   width: 100%;
   background-color: var(--dark-grey);
+  justify-content: space-evenly;
 }
 
 .project-card {
   display: flex;
   flex-direction: column;
+
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -288,7 +290,8 @@ FOOTER SECTION
   justify-content: center;
   align-items: center;
   justify-content: space-evenly;
-  width: 80%;
+  width: 100%;
+  margin-bottom: 5rem;
 }
 
 .footer-card a {
