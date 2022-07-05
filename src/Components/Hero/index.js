@@ -13,7 +13,7 @@ function Hero(props) {
                 <br />
                 Teune
               </h1>
-              <p>Engineer</p>
+              <p>Full Stack Software Engineer</p>
             </Card.Title>
           </Card>
         </div>

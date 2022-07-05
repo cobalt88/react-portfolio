@@ -215,8 +215,8 @@ PROJECTS SECTION
   min-height: 50vh;
   max-width: 250px;
   min-width: 200px;
-  margin: 2rem;
-  margin-bottom: 4rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
   padding: 2rem;
   background-color: var(--card-background);
   border-radius: 0.5rem;
