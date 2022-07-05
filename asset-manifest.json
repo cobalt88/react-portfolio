@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cobalt88/react-portfolio/static/css/main.77784048.css",
+    "main.js": "/cobalt88/react-portfolio/static/js/main.c8f45b3f.js",
+    "static/js/787.a2cb61a6.chunk.js": "/cobalt88/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Logo SVG.svg": "/cobalt88/react-portfolio/static/media/Logo SVG.df5ec56df972c87ff13e.svg",
+    "index.html": "/cobalt88/react-portfolio/index.html",
+    "main.77784048.css.map": "/cobalt88/react-portfolio/static/css/main.77784048.css.map",
+    "main.c8f45b3f.js.map": "/cobalt88/react-portfolio/static/js/main.c8f45b3f.js.map",
+    "787.a2cb61a6.chunk.js.map": "/cobalt88/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77784048.css",
+    "static/js/main.c8f45b3f.js"
+  ]
+}
