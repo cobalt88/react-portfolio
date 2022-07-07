@@ -10,20 +10,6 @@ function FeaturedCards(props) {
         <p className="card-body">body of project</p>
         <p className="card-footer">Card footer goes here</p>
       </Card>
-
-      <Card className="featured-card grow">
-        <Card.Img alt="project logo" className="card-image"></Card.Img>
-        <h3 className="card-header">Featured Project 2</h3>
-        <p className="card-body">body of project</p>
-        <p className="card-footer">Card footer goes here</p>
-      </Card>
-
-      <Card className="featured-card grow">
-        <Card.Img alt="project logo" className="card-image"></Card.Img>
-        <h3 className="card-header">Featured Project 3</h3>
-        <p className="card-body">body of project</p>
-        <p className="card-footer">Card footer goes here</p>
-      </Card>
     </>
   );
 }

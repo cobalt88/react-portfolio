@@ -208,6 +208,7 @@ PROJECTS SECTION
 .project-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -216,8 +217,10 @@ PROJECTS SECTION
   min-height: 50vh;
   max-width: 250px;
   min-width: 200px;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 2rem;
   background-color: var(--card-background);
   border-radius: 0.5rem;
@@ -269,6 +272,7 @@ CONTACT SECTION
   background-color: var(--card-background);
   border-radius: 0.5rem;
   padding: 2rem;
+  margin: 25px;
 }
 
 /* 
