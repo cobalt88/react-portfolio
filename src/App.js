@@ -22,7 +22,7 @@ function App() {
       <Hero className="hero-card" />
       <AboutMe className="full-height" />
       <FeaturedCards className="featured-section" />
-      <Coverflow />
+      <ProjectCards />
       <Contact className="contact-section" />
       <Footer className="footer" />
     </>
