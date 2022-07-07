@@ -21,13 +21,16 @@ export default function Coverflow() {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 1,
+            slidesPerView: 2,
+            spaceBetween: 20,
           },
           900: {
             slidesPerView: 3,
+            spaceBetween: 30,
           },
           1400: {
             slidesPerView: 4,
+            spaceBetween: 30,
           },
           2400: {
             slidesPerView: 7,

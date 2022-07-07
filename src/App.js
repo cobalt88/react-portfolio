@@ -23,7 +23,6 @@ function App() {
       <AboutMe className="full-height" />
       <FeaturedCards className="featured-section" />
       <Coverflow />
-      <Coverflow />
       <Contact className="contact-section" />
       <Footer className="footer" />
     </>
