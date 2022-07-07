@@ -11,7 +11,7 @@ import FeaturedCards from "./Components/FeaturedCards";
 import ProjectCards from "./Components/ProjectCards";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-import Coverflow from "./Components/Carousel";
+// import Coverflow from "./Components/Carousel";
 
 function App() {
   return (
