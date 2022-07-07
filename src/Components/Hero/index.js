@@ -3,7 +3,7 @@ import { Container, Card } from "react-bootstrap";
 
 function Hero(props) {
   return (
-    <Container>
+    <Container id="home">
       <div className="hero" style={{ minHeight: "100vh" }}>
         <div className="hero-content" style={{ textAlign: "center" }}>
           <Card style={{ display: "flex" }}>

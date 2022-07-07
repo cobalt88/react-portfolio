@@ -4,7 +4,7 @@ import { Card, Container } from "react-bootstrap";
 function FeaturedCards(props) {
   return (
     <>
-      <Card className="featured-card grow">
+      <Card className="featured-card grow" id="featured">
         <Card.Img alt="project logo" className="card-image"></Card.Img>
         <h3 className="card-header">Featured Project 1</h3>
         <p className="card-body">body of project</p>

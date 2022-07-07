@@ -3,7 +3,7 @@ import { Card, CardGroup } from "react-bootstrap";
 
 function AboutMe(props) {
   return (
-    <CardGroup className="about-cards">
+    <CardGroup className="about-cards" id="about">
       <Card className="about-image-card"></Card>
 
       <Card className="about-info-card">

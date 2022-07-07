@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 function Contact() {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <Card className="section-header">
         <h2>How To Get In Touch</h2>
       </Card>

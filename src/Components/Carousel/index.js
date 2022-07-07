@@ -41,101 +41,42 @@ export default function Coverflow() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
+          <Card className="contact-card grow">
+            <h3 className="card-header">GitHub</h3>
+            <p className="card-body">Put Stuff Here</p>
+            <p className="card-footer">Maybe put something here?</p>
           </Card>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
+          <Card className="contact-card">
+            <h3 className="card-header">Reach Out</h3>
+            <p className="card-body">Put Stuff Here</p>
+            <p className="card-footer">Maybe put something here?</p>
           </Card>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
+          <Card className="contact-card">
+            <h3 className="card-header">Request Form</h3>
+            <p className="card-body">Put Stuff Here</p>
+            <p className="card-footer">Maybe put something here?</p>
           </Card>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
+          <Card className="contact-card">
+            <h3 className="card-header">Resume</h3>
+            <p className="card-body">Put Stuff Here</p>
+            <p className="card-footer">Maybe put something here?</p>
           </Card>
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
-          </Card>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
-          </Card>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
-          </Card>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
-          </Card>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <Card className="project-card grow">
-            <div className="card-header">Test Project Card Header</div>
-            <div className="card-body">
-              Test body section for the standard project card. A brief
-              description of the project will go here.
-            </div>
-            <div className="card-footer">Card Footer - Icons Go Here</div>
+          <Card className="contact-card">
+            <h3 className="card-header">LinkedIn</h3>
+            <p className="card-body">Put Stuff Here</p>
+            <p className="card-footer">Maybe put something here?</p>
           </Card>
         </SwiperSlide>
       </Swiper>

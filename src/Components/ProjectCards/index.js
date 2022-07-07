@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 
 function ProjectCards() {
   return (
-    <section className="project-section">
+    <section className="project-section" id="projects">
       <Card className="section-header">
         <h2>Projects</h2>
       </Card>
