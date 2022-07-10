@@ -49,7 +49,7 @@ export default function Coverflow() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="contact-card">
+          <Card className="contact-card grow">
             <h3 className="card-header">Reach Out</h3>
             <p className="card-body">Put Stuff Here</p>
             <p className="card-footer">Maybe put something here?</p>
@@ -57,7 +57,7 @@ export default function Coverflow() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="contact-card">
+          <Card className="contact-card grow">
             <h3 className="card-header">Request Form</h3>
             <p className="card-body">Put Stuff Here</p>
             <p className="card-footer">Maybe put something here?</p>
@@ -65,7 +65,7 @@ export default function Coverflow() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="contact-card">
+          <Card className="contact-card grow">
             <h3 className="card-header">Resume</h3>
             <p className="card-body">Put Stuff Here</p>
             <p className="card-footer">Maybe put something here?</p>
@@ -73,7 +73,7 @@ export default function Coverflow() {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Card className="contact-card">
+          <Card className="contact-card grow">
             <h3 className="card-header">LinkedIn</h3>
             <p className="card-body">Put Stuff Here</p>
             <p className="card-footer">Maybe put something here?</p>

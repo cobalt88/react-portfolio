@@ -134,7 +134,7 @@ FEATURED SECTION
   flex-direction: row;
   height: 75vh;
   width: 25%;
-  margin: 1rem;
+  margin: auto;
   margin-bottom: 5rem;
   padding: 2rem;
   background-color: var(--card-background);
@@ -299,27 +299,12 @@ FOOTER SECTION
   margin-bottom: 5rem;
 }
 
-.footer-card a {
+.footer-card i {
   display: flex;
+  margin: 25px;
+  min-height: 45px;
 }
-
-/* Carousel Experiment */
-
-.carousel-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 5rem;
-}
-
-.carousel-card {
-  background-image: url("./assets/images/logo512.png");
-  background-size: contain;
-  width: 250px;
-  height: 250px;
-}
+/* Nav Bar */
 
 .navbar {
   position: fixed;

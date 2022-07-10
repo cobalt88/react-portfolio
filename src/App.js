@@ -9,7 +9,7 @@ import AboutMe from "./Components/AboutMe/index";
 import Hero from "./Components/Hero/index";
 import FeaturedCards from "./Components/FeaturedCards";
 import ProjectCards from "./Components/ProjectCards";
-import Contact from "./Components/Contact";
+// import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Coverflow from "./Components/Carousel";
 import Nav from "./Nav";
