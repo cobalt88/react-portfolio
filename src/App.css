@@ -205,6 +205,14 @@ PROJECTS SECTION
   justify-content: space-evenly;
 }
 
+.project-tech {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
