@@ -34,6 +34,14 @@ function FeaturedCards(props) {
             <i class="fa-brands fa-css3"> CSS3</i>
             <i class="fa-brands fa-square-js"> JavaScript</i>
           </p>
+          <a
+            href="https://github.com/Amir-Hackett/RecipEZ"
+            target="blank"
+            ref="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <p></p>
         </Card>
       </a>
     </>
