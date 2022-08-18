@@ -1,15 +1,11 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import featuredCards from "./featuredCards.css";
-import recipEZ from "../../assets/images/recipEZ.png";
+import recipEZ from "../../assets/images/recipEZ-logo-trimmed.png";
 function FeaturedCards(props) {
   return (
     <>
-      <a
-        href="https://amir-hackett.github.io/RecipEZ/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="https://amir-hackett.github.io/RecipEZ/" target="_blank">
         <Card className="featured-card grow" id="featured">
           <Card.Img
             alt="project logo"
@@ -34,11 +30,7 @@ function FeaturedCards(props) {
             <i class="fa-brands fa-css3"> CSS3</i>
             <i class="fa-brands fa-square-js"> JavaScript</i>
           </p>
-          <a
-            href="https://github.com/Amir-Hackett/RecipEZ"
-            target="blank"
-            ref="noopener noreferrer"
-          >
+          <a href="https://github.com/Amir-Hackett/RecipEZ" target="blank">
             <i class="fa-brands fa-github"></i>
           </a>
           <p></p>

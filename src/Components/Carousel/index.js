@@ -41,7 +41,11 @@ export default function Coverflow() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <Card className="contact-card grow">
+          <Card
+            className="contact-card grow"
+            href="https://github.com/cobalt88"
+            target="_blank"
+          >
             <h3 className="card-header">GitHub</h3>
             <p className="card-body">Put Stuff Here</p>
             <p className="card-footer">Maybe put something here?</p>
