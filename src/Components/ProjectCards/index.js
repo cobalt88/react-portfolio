@@ -4,12 +4,19 @@ import { Card } from "react-bootstrap";
 const projectProps = [
   {
     title: "Random Password Generator",
-    Description:
+    description:
       "A simple JavaScript based password generator that generates random passwords with varying complexity based on user input.",
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
+    technologies: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/cobalt88/random-pass-generator",
     live: "https://cobalt88.github.io/random-pass-generator/",
-    technologies: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    title: "Regex Breakdown",
+    description:
+      "This is the first of a planned series of Regex tutorials intended to help others understand the basics of regular expressions.",
+    technologies: ["Git"],
+    github: "https://gist.github.com/cobalt88/347e3b90dea7f1509b175efe11e77149",
+    live: "https://cobalt88.github.io/regex-breakdown/",
   },
 ];
 
@@ -31,17 +38,15 @@ function ProjectCards() {
         <Card className="project-card grow" key={index}>
           <div className="card-header">{project.title}</div>
           <div className="card-body">
-            <p>{project.Description}</p>
+            <p>{project.description}</p>
           </div>
-          <div className="card-footer">
+          <div className="project-card-footer">
             <div className="card-footer-item">
               <a href={project.github}>
-                <i className="fab fa-github"></i>
-              </a>
-            </div>
-            <div className="card-footer-item">
+                <i className="fab fa-github"> GitHub</i>
+              </a>{" "}
               <a href={project.live}>
-                <i className="fas fa-external-link-alt"></i>
+                <i className="fas fa-external-link-alt"> Take Me there!</i>
               </a>
             </div>
             <div className="project-tech">
@@ -73,6 +78,8 @@ function ProjectCards() {
                     return <i className="fa-brands fa-python" key={index}></i>;
                   case "GraphQL":
                     return <i className="fab fa-graphql" key={index}></i>;
+                  case "Git":
+                    return <i className="fab fa-github" key={index}></i>;
                 }
               })}
               ;
