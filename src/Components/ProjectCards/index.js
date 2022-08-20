@@ -18,6 +18,11 @@ const projectProps = [
     github: "https://gist.github.com/cobalt88/347e3b90dea7f1509b175efe11e77149",
     live: "https://cobalt88.github.io/regex-breakdown/",
   },
+  {
+    title: "The Rabbit Hole",
+    description:
+      'The Rabbit Hole is a tech blog with the purpose of giving developers a place to store/document and share their "Rabbit Holes" or deep dives into a particular subject in search of a particular kernal of information.',
+  },
 ];
 
 function ProjectCards() {
