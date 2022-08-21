@@ -22,6 +22,9 @@ const projectProps = [
     title: "The Rabbit Hole",
     description:
       'The Rabbit Hole is a tech blog with the purpose of giving developers a place to store/document and share their "Rabbit Holes" or deep dives into a particular subject in search of a particular kernal of information.',
+    technologies: ["MySQL", "Node", "Express", "JavaScript"],
+    github: "https://github.com/beimy/tech-blog",
+    live: "https://therabbithole-blog.herokuapp.com/",
   },
 ];
 
