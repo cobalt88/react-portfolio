@@ -26,7 +26,7 @@ function Contact() {
         <p className="card-body">
           <a href="mailto:vincent@vtportfolio.net">vincent@vtportfolio.net</a>
           <br />
-          Phone: 407-614-7677{" "}
+          Phone: 407-614-7677
         </p>
       </Card>
 
