@@ -21,11 +21,19 @@ const projectProps = [
   {
     title: "The Rabbit Hole",
     description:
-      'The Rabbit Hole is a tech blog with the purpose of giving developers a place to store/document and share their "Rabbit Holes" or deep dives into a particular subject in search of a particular kernal of information.',
+      'The Rabbit Hole is a tech blog with the purpose of giving developers a place to store/document and share their "Rabbit Holes" or deep dives into a particular subject in search of a particular kernel of information.',
     technologies: ["MySQL", "Node", "Express", "JavaScript"],
     github: "https://github.com/beimy/tech-blog",
     live: "https://therabbithole-blog.herokuapp.com/",
   },
+  {
+    title: "Employee Tracker",
+    description:
+      'Employee Tracker is a command line application that allows the user to view, add, and update employees, roles, and departments in a MySQL database.',
+    technologies: ["MySQL", "Node", "Express", "JavaScript"],
+    github: "https://github.com/beimy/tech-blog",
+    live: "https://therabbithole-blog.herokuapp.com/",
+  }
 ];
 
 function ProjectCards() {
@@ -34,14 +42,6 @@ function ProjectCards() {
       <Card className="section-header">
         <h2>Projects</h2>
       </Card>
-      <Card className="project-card grow">
-        <div className="card-header">Test Project Card Header</div>
-        <div className="card-body">
-          Test body section for the standard project card. A brief description
-          of the project will go here.
-        </div>
-        <div className="card-footer">Card Footer - Icons Go Here</div>
-      </Card>
       {projectProps.map((project, index) => (
         <Card className="project-card grow" key={index}>
           <div className="card-header">{project.title}</div>
@@ -49,48 +49,51 @@ function ProjectCards() {
             <p>{project.description}</p>
           </div>
           <div className="project-card-footer">
-            <div className="card-footer-item">
+            <div className="card-footer-links">
               <a href={project.github}>
-                <i className="fab fa-github"> GitHub</i>
+                <i className="fab fa-github fa-lg"> GitHub</i>
               </a>{" "}
               <a href={project.live}>
-                <i className="fas fa-external-link-alt"> Take Me there!</i>
+                <i className="fas fa-external-link-alt fa-lg"> Take Me there!</i>
               </a>
             </div>
             <div className="project-tech">
               {project.technologies.map((tech, index) => {
                 switch (tech) {
                   case "HTML":
-                    return <i className="fab fa-html5" key={index}></i>;
+                    return <i className="fab fa-html5 fa-3x" key={index}></i>;
                   case "CSS":
-                    return <i className="fab fa-css3-alt" key={index}></i>;
+                    return (
+                      <i className="fab fa-css3-alt fa-3x" key={index}></i>
+                    )
                   case "JavaScript":
-                    return <i className="fab fa-js" key={index}></i>;
+                    return <i className="fab fa-js fa-3x" key={index}></i>
                   case "jQuery":
-                    return <i className="fab fa-jquery" key={index}></i>;
+                    return <i className="fab fa-jquery fa-3x" key={index}></i>
                   case "React":
-                    return <i className="fab fa-react" key={index}></i>;
+                    return <i className="fab fa-react fa-3x" key={index}></i>
                   case "Node":
-                    return <i className="fab fa-node" key={index}></i>;
+                    return <i className="fab fa-node fa-2x" key={index}></i>
                   case "Express":
-                    return <i className="fab fa-express" key={index}></i>;
+                    return <i className="fab fa-express fa-3x" key={index}></i>
                   case "MongoDB":
-                    return <i className="fab fa-mongodb" key={index}></i>;
+                    return <i className="fab fa-mongodb fa-3x" key={index}></i>
                   case "MySQL":
-                    return <i className="fab fa-mysql" key={index}></i>;
+                    return <i className="fa-solid fa-server fa-3x" key={index}></i>
                   case "C++":
-                    return <i className="fab fa-cpp" key={index}></i>;
+                    return <i className="fab fa-cpp fa-3x" key={index}></i>
                   case "C#":
-                    return <i className="fab fa-csharp" key={index}></i>;
+                    return <i className="fab fa-csharp fa-3x" key={index}></i>
                   case "Python":
-                    return <i className="fa-brands fa-python" key={index}></i>;
+                    return (
+                      <i className="fa-brands fa-python fa-3x" key={index}></i>
+                    )
                   case "GraphQL":
-                    return <i className="fab fa-graphql" key={index}></i>;
+                    return <i className="fab fa-graphql fa-3x" key={index}></i>
                   case "Git":
-                    return <i className="fab fa-github" key={index}></i>;
+                    return <i className="fab fa-github fa-3x" key={index}></i>
                 }
               })}
-              ;
             </div>
           </div>
         </Card>
