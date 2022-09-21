@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b71ff8f8.css",
-    "main.js": "/react-portfolio/static/js/main.eba6642d.js",
+    "main.css": "/react-portfolio/static/css/main.2b5223b2.css",
+    "main.js": "/react-portfolio/static/js/main.17f8f603.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Logo SVG.svg": "/react-portfolio/static/media/Logo SVG.df5ec56df972c87ff13e.svg",
+    "static/media/recipEZ-logo-trimmed.png": "/react-portfolio/static/media/recipEZ-logo-trimmed.c53bad476a81f20f5c30.png",
     "index.html": "/react-portfolio/index.html",
-    "main.b71ff8f8.css.map": "/react-portfolio/static/css/main.b71ff8f8.css.map",
-    "main.eba6642d.js.map": "/react-portfolio/static/js/main.eba6642d.js.map",
+    "main.2b5223b2.css.map": "/react-portfolio/static/css/main.2b5223b2.css.map",
+    "main.17f8f603.js.map": "/react-portfolio/static/js/main.17f8f603.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b71ff8f8.css",
-    "static/js/main.eba6642d.js"
+    "static/css/main.2b5223b2.css",
+    "static/js/main.17f8f603.js"
   ]
 }
