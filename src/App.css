@@ -50,6 +50,11 @@ HERO SECTION
   height: 100vh;
 }
 
+.hero-header {
+  font-size: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* 
 ---------------
 ABOUT SECTION
@@ -267,6 +272,12 @@ PROJECTS SECTION
   flex-direction: row;
 }
 
+.icon-label {
+  font-family: sans-serif;
+  font-size: large;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
 /* 
 ----------------
 CONTACT SECTION

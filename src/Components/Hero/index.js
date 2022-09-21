@@ -8,7 +8,7 @@ function Hero(props) {
         <div className="hero-content" style={{ textAlign: "center" }}>
           <Card style={{ display: "flex" }}>
             <Card.Title>
-              <h1>
+              <h1 className="hero-header">
                 Vincent
                 <br />
                 Teune

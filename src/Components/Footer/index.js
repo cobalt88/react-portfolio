@@ -23,6 +23,9 @@ function Footer() {
         <a href="https://www.etsy.com/shop/KiwiDragonAndCompany?ref=shop_sugg">
           <i class="fa-brands fa-etsy fa-3x"></i>
         </a>
+        <a href="https://medium.com/@cobalt88">
+          <i class="fa-brands fa-medium fa-3x"></i>
+        </a>
       </Card>
     </footer>
   );

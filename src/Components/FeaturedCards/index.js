@@ -26,12 +26,12 @@ function FeaturedCards(props) {
             support it is currently under development.
           </p>
           <p className="card-footer">
-            <i class="fa-brands fa-html5"> HTML5</i>
-            <i class="fa-brands fa-css3"> CSS3</i>
-            <i class="fa-brands fa-square-js"> JavaScript</i>
+            <i class="fa-brands fa-html5 fa-3x icon"><span className="icon-label">HTML5</span></i>
+            <i class="fa-brands fa-css3 fa-3x icon"><span className="icon-label">CSS3</span></i>
+            <i class="fa-brands fa-square-js fa-3x icon"><span className="icon-label">JavaScript</span></i>
           </p>
           <a href="https://github.com/Amir-Hackett/RecipEZ" target="blank">
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github fa-3x"></i>
           </a>
           <p></p>
         </Card>

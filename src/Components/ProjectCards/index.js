@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 
+
 const projectProps = [
   {
     title: "Random Password Generator",
@@ -33,6 +34,14 @@ const projectProps = [
     technologies: ["MySQL", "Node", "Express", "JavaScript"],
     github: "https://github.com/beimy/tech-blog",
     live: "https://therabbithole-blog.herokuapp.com/",
+  },
+  {
+    title: "FrankenPrinter",
+    description:
+      'The FrankenPrinter project was my first foray into C++, Python, and firmware modification. This 3D printer firmware is based off the early Marlin 2.0.x project. ',
+    technologies: ["Python", "C++", "C", "Git"],
+    github: "https://github.com/cobalt88/Frankenprinter",
+    live: "https://github.com/cobalt88/Frankenprinter",
   }
 ];
 
@@ -51,21 +60,19 @@ function ProjectCards() {
           <div className="project-card-footer">
             <div className="card-footer-links">
               <a href={project.github}>
-                <i className="fab fa-github fa-lg"> GitHub</i>
+                <i className="fab fa-github fa-lg"><span className="icon-label">GitHub Repository</span></i>
               </a>{" "}
               <a href={project.live}>
-                <i className="fas fa-external-link-alt fa-lg"> Take Me there!</i>
+                <i className="fas fa-external-link-alt fa-lg"><span className="icon-label">Take Me There!</span></i>
               </a>
             </div>
             <div className="project-tech">
               {project.technologies.map((tech, index) => {
                 switch (tech) {
                   case "HTML":
-                    return <i className="fab fa-html5 fa-3x" key={index}></i>;
+                    return <i className="fab fa-html5 fa-3x" key={index}></i>
                   case "CSS":
-                    return (
-                      <i className="fab fa-css3-alt fa-3x" key={index}></i>
-                    )
+                    return <i className="fab fa-css3-alt fa-3x" key={index}></i>
                   case "JavaScript":
                     return <i className="fab fa-js fa-3x" key={index}></i>
                   case "jQuery":
@@ -81,13 +88,11 @@ function ProjectCards() {
                   case "MySQL":
                     return <i className="fa-solid fa-server fa-3x" key={index}></i>
                   case "C++":
-                    return <i className="fab fa-cpp fa-3x" key={index}></i>
+                    return <img src="/images/cpp.png" alt="C++" key={index} />
                   case "C#":
-                    return <i className="fab fa-csharp fa-3x" key={index}></i>
+                    return <i className="fab fa-c fa-3x" key={index}></i>
                   case "Python":
-                    return (
-                      <i className="fa-brands fa-python fa-3x" key={index}></i>
-                    )
+                    return <i className="fa-brands fa-python fa-3x" key={index}></i>
                   case "GraphQL":
                     return <i className="fab fa-graphql fa-3x" key={index}></i>
                   case "Git":

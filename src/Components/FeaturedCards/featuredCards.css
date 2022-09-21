@@ -13,8 +13,13 @@ a {
 
 .card-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   margin-bottom: 15px;
   margin-top: 15px;
+}
+
+.icon {
+  margin: 1rem;
 }
