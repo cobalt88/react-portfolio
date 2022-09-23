@@ -16,10 +16,7 @@ function FeaturedCards(props) {
             RecipEZ started off as an experiment with a recipe search API, and
             quickly evolved into to become a recipe search engine. The goal with
             this application is to provide a single site where you can search
-            any recipe you want and get back a simplified recipe card. No 10
-            mile long blog posts about how great grandma came up with the best
-            marinara sauce you've ever tasted. Just a recipe in an easy to read
-            format that can be saved, liked, shared or printed out as needed.
+            any recipe you want and get back a simplified recipe card.
             <br />
             <br />
             The next iteration of this search engine and a new database to
