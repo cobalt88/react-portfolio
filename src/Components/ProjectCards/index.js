@@ -15,7 +15,7 @@ const projectProps = [
     title: "Regex Breakdown",
     description:
       "This is the first of a planned series of Regex tutorials intended to help others understand the basics of regular expressions.",
-    technologies: ["Git", "Medium"],
+    technologies: ["Git", "Medium", "Markdown"],
     github: "https://gist.github.com/cobalt88/347e3b90dea7f1509b175efe11e77149",
     live: "https://cobalt88.github.io/regex-breakdown/",
     medium: "https://medium.com/p/dbd2095f7c83",
@@ -120,6 +120,8 @@ function ProjectCards() {
                     return <i className="devicon-handlebars-plain" id="handlebars-icon" key={index}></i>
                   case "React":
                     return <i className="devicon-react-original" id="react-icon" key={index}></i>
+                  case "Markdown":
+                    return <i class="devicon-markdown-original di-4" key={index}></i>
                 }
               })}
             </div>
