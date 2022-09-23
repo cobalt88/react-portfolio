@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.d1519947.css",
-    "main.js": "/static/js/main.ee619763.js",
+    "main.js": "/static/js/main.b33645d9.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/Logo SVG.svg": "/static/media/Logo SVG.df5ec56df972c87ff13e.svg",
     "static/media/Vincent-Teune-Resume-9-22.pdf": "/static/media/Vincent-Teune-Resume-9-22.0ad46755e26c5de19714.pdf",
     "static/media/recipEZ-logo-trimmed.png": "/static/media/recipEZ-logo-trimmed.c53bad476a81f20f5c30.png",
     "index.html": "/index.html",
     "main.d1519947.css.map": "/static/css/main.d1519947.css.map",
-    "main.ee619763.js.map": "/static/js/main.ee619763.js.map",
+    "main.b33645d9.js.map": "/static/js/main.b33645d9.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1519947.css",
-    "static/js/main.ee619763.js"
+    "static/js/main.b33645d9.js"
   ]
 }
