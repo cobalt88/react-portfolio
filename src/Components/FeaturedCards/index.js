@@ -31,7 +31,7 @@ function FeaturedCards(props) {
             <i class="fa-brands fa-square-js fa-3x icon"><span className="icon-label">JavaScript</span></i>
           </p>
           <a href="https://github.com/Amir-Hackett/RecipEZ" target="blank">
-            <i class="fa-brands fa-github fa-3x"></i>
+            <i class="fa-brands fa-github fa-3x icon"></i>
           </a>
           <p></p>
         </Card>
