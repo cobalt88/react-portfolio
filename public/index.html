@@ -9,8 +9,15 @@
       name="description"
       content="Web site created using create-react-app"
     />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://kit.fontawesome.com/df3c1e2c11.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/df3c1e2c11.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     <!--
@@ -34,36 +41,36 @@
     <div id="root"></div>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var menuButton = document.querySelector('.menu-button');
-    var openMenu = function () {
-      swiper.slidePrev();
-    };
-    var swiper = new Swiper('.swiper', {
-      slidesPerView: 'auto',
-      initialSlide: 1,
-      resistanceRatio: 0,
-      slideToClickedSlide: true,
-      on: {
-        slideChangeTransitionStart: function () {
-          var slider = this;
-          if (slider.activeIndex === 0) {
-            menuButton.classList.add('cross');
-            // required because of slideToClickedSlide
-            menuButton.removeEventListener('click', openMenu, true);
-          } else {
-            menuButton.classList.remove('cross');
-          }
+    <!-- Initialize Swiper -->
+    <script>
+      var menuButton = document.querySelector(".menu-button");
+      var openMenu = function () {
+        swiper.slidePrev();
+      };
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: "auto",
+        initialSlide: 1,
+        resistanceRatio: 0,
+        slideToClickedSlide: true,
+        on: {
+          slideChangeTransitionStart: function () {
+            var slider = this;
+            if (slider.activeIndex === 0) {
+              menuButton.classList.add("cross");
+              // required because of slideToClickedSlide
+              menuButton.removeEventListener("click", openMenu, true);
+            } else {
+              menuButton.classList.remove("cross");
+            }
+          },
+          slideChangeTransitionEnd: function () {
+            var slider = this;
+            if (slider.activeIndex === 1) {
+              menuButton.addEventListener("click", openMenu, true);
+            }
+          },
         },
-        slideChangeTransitionEnd: function () {
-          var slider = this;
-          if (slider.activeIndex === 1) {
-            menuButton.addEventListener('click', openMenu, true);
-          }
-        },
-      },
-    });
-  </script>
+      });
+    </script>
   </body>
 </html>

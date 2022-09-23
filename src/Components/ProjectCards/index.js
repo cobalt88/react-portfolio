@@ -88,7 +88,7 @@ function ProjectCards() {
                   case "MySQL":
                     return <i className="fa-solid fa-server fa-3x" key={index}></i>
                   case "C++":
-                    return <img src="/images/cpp.png" alt="C++" key={index} />
+                    return <i class="devicon-cplusplus-line" id="cpp-icon" alt="C++" key={index} />
                   case "C#":
                     return <i className="fab fa-c fa-3x" key={index}></i>
                   case "Python":
