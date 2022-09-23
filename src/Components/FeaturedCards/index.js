@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import featuredCards from "./featuredCards.css";
-import recipEZ from "./public/images/recipEZ-logo-trimmed.png";
+import recipEZ from "../../assets/images/recipEZ-logo-trimmed.png";
 function FeaturedCards(props) {
   return (
     <>
