@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cobalt88/react-portfolio/static/css/main.80c94a4a.css",
+    "main.js": "/cobalt88/react-portfolio/static/js/main.27413652.js",
+    "static/js/787.a2cb61a6.chunk.js": "/cobalt88/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Logo SVG.svg": "/cobalt88/react-portfolio/static/media/Logo SVG.df5ec56df972c87ff13e.svg",
+    "static/media/recipEZ-logo-trimmed.png": "/cobalt88/react-portfolio/static/media/recipEZ-logo-trimmed.c53bad476a81f20f5c30.png",
+    "index.html": "/cobalt88/react-portfolio/index.html",
+    "main.80c94a4a.css.map": "/cobalt88/react-portfolio/static/css/main.80c94a4a.css.map",
+    "main.27413652.js.map": "/cobalt88/react-portfolio/static/js/main.27413652.js.map",
+    "787.a2cb61a6.chunk.js.map": "/cobalt88/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80c94a4a.css",
+    "static/js/main.27413652.js"
+  ]
+}

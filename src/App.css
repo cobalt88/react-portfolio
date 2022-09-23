@@ -278,6 +278,35 @@ PROJECTS SECTION
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
+
+.di-4 {
+  font-size: 3rem;
+}
+
+#cpp-icon {
+  font-size: 3rem;
+}
+
+#react-icon {
+  font-size: 3rem;
+}
+
+#express-icon {
+  font-size: 3rem;
+}
+
+#mysql-icon {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+#node-icon {
+  font-size: 3rem;
+}
+
+#handlebars-icon {
+  font-size: 3rem;
+}
 /* 
 ----------------
 CONTACT SECTION
