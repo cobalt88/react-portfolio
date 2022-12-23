@@ -14,15 +14,7 @@
 
 
 
- 
- ## Installation Instructions
- 
- 
- ## How To Use
- 
- 
- ## Contribution Guidelines
-
+tada
  Contributors are welcome, just keep a few things in mind:
 
 1. All contributions are to be made in a separate branch off develop or in an independent fork. Do not attempt to contribute to develop or main directly, it will be denied.
