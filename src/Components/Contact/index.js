@@ -9,7 +9,8 @@ function Contact() {
       </Card>
 
       <Card className="contact-card">
-        <h3 className="card-header">GitHub</h3>
+        <h3 className="card-header"><i class="fa-brands fa-github fa-3x">Test</i>GitHub</h3>
+        
         <p className="card-body">
           <a href="https://github.com/cobalt88">Profile</a>
           <br />
