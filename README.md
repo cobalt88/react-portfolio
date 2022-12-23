@@ -14,11 +14,7 @@
 
 
 
- 
- ## Installation Instructions
- 
- 
- ## How To Use
+Barg
  
  
  ## Contribution Guidelines
