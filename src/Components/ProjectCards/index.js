@@ -3,14 +3,14 @@ import { Card } from "react-bootstrap";
 
 
 const projectProps = [
-  {
-    title: "Random Password Generator",
-    description:
-      "A simple JavaScript based password generator that generates random passwords with varying complexity based on user input.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/cobalt88/random-pass-generator",
-    live: "https://cobalt88.github.io/random-pass-generator/",
-  },
+  // {
+  //   title: "Random Password Generator",
+  //   description:
+  //     "A simple JavaScript based password generator that generates random passwords with varying complexity based on user input.",
+  //   technologies: ["HTML", "CSS", "JavaScript"],
+  //   github: "https://github.com/cobalt88/random-pass-generator",
+  //   live: "https://cobalt88.github.io/random-pass-generator/",
+  // },
   {
     title: "Regex Breakdown",
     description:
