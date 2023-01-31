@@ -2,8 +2,6 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Card } from "react-bootstrap";
 import resume from "../../assets/documents/Vincent_Teune_Resume.pdf";
-
-// import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
 export default function Coverflow() {
